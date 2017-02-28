@@ -1,0 +1,14 @@
+.section {
+  &--first,
+  &--second,
+  &--third,
+  &--fourth {
+    h2 {
+      margin-top: .5em;
+    }
+  }
+}
+.section--first,
+.section--third {
+  background: lighten($color--blue-light,30%);
+}

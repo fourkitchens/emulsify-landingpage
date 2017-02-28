@@ -1,0 +1,21 @@
+.btn {
+  border-radius: 5px;
+  font-weight: bold;
+  padding: .5em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all .1s;
+
+  &--download {
+    display: block;
+    margin: 0 auto 1em;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-size: 1.3em;
+    max-width: 200px;
+
+    &:hover {
+      background-color: rgba(255,255,255,0.3);
+    }
+  }
+}

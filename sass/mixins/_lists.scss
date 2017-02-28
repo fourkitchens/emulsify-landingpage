@@ -1,0 +1,12 @@
+@mixin list-reset() {
+  list-style: none;
+  padding: 0;
+}
+
+@mixin list-inline() {
+  @include list-reset();
+
+  li {
+    display: inline-block;
+  }
+}

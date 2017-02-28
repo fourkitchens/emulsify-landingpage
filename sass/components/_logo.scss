@@ -1,0 +1,24 @@
+.emulsify-logo {
+  .header & {
+    margin: 2em 0 3em;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+  }
+
+  .footer & {
+    margin-bottom: 3em;
+  }
+}
+
+.emulsify-logo--emulsify {
+
+}
+.emulsify-logo--pattern-lab-and-drupal {
+  .header & {
+    fill: $color--blue-dark;
+  }
+  .footer & {
+    fill: $color--blue;
+  }
+}
