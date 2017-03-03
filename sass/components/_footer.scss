@@ -4,4 +4,21 @@
   font-size: .8em;
   padding: 2em;
   text-align: center;
+
+  .colophon {
+    margin-top: 3em;
+    font-size: .8em;
+  }
+
+  a {
+    color: $color--blue-light;
+
+    &:hover {
+      color: #FFF;
+    }
+  }
+
+  h2 {
+    color: $color--blue-light;
+  }
 }

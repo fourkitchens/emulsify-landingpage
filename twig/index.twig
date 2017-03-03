@@ -6,6 +6,7 @@
   <div class="max-width">
     <h2>A Modern Workflow is Component-driven</h2>
     <h3>What is Component-driven Development?</h3>
+    {% include 'components/_cogs.tpl' %}
     <p>The familar metaphor of thinking about the web as "pages" is an inaccurate representation. The web is better thought of as a collection of components that are assembed together. Each site has a header that gets applied to every page and if you update the header that change shows up throughout the site. The same is true of the footer, navigation, and so on. <strong>This approach to building sites is called Component-driven Development.</strong>
     </p>
     <p>Components are reusable chunks of web sites. They can be small (inputs, labels, buttons), medium (header, footer, cards), or large (landing page template, photo gallery). <strong>Emulsify adopts the metaphor of Atomic Design</strong>, where the smallest components are atoms, which are assembled into molecules, then organisms, templates, and finally pages. (Yes, "pages". This makes it easier to talk with clients.)
@@ -17,6 +18,7 @@
   <div class="max-width">
     <h2>Add Component-driven Development to Your Drupal Workflow</h2>
     <h3>Drupal 8 and Pattern Lab</h3>
+    <i class="fa fa-drupal" aria-hidden="true"></i>
     <p>With the move to Twig for templating in Drupal 8, a whole world of tools opens up for theming. <strong>One of those tools is Pattern Lab, a dynamic prototyping and organization tool popularized by Brad Frost.</strong></p>
     <p>By integrating Pattern Lab, components can be built and managed in a way that makes sense for your workflow. So instead of having to use Drupal's template names the project can instead <strong>work with template names that make sense for the project, developers, and clients</strong>.</p>
     <p>Once the templates are ready for production, connecting them to Drupal is easy using a simple reference (embed, extend, or import in Twig) from the Drupal templates to the component files.</p>
@@ -27,14 +29,16 @@
   <div class="max-width">
     <h2>Living Style Guide</h2>
     <h3>Maintain a Style Guide that is Never Out of Date</h3>
+    {% include 'components/_styleguide.tpl' %}
     <p>Everyone loves a style guide but few projects are able to maintain them. Emulsify takes a "living style guide" approach where <strong>all of the components in the style guide are the same templates in use on the live site</strong>. No more worries about components going out of date or looking different than the style guide.</p>
   </div>
 </section>
 
 <section class="section--fourth">
   <div class="max-width">
-    <h2>No Drupal Needed</h2>
-    <h3>Any Project Can Use Emulsify</h3>
+    <h2>Any Project Can Use Emulsify</h2>
+    <h3>No Drupal Needed</h3>
+    {% include 'components/_project.tpl' %}
     <p><strong>The components built with Emulsify can be used without Drupal on any project.</strong> This allows a team to work with any frontend expert as they will be only working with technologies that they already know. Emulsify can be used with any CMS that renders content with Twig, which includes WordPress. For projects that don't use Twig, Emulsify can be used by designers and frontend developers to build a style guide to pass along to backend developers.</p>
   </div>
 
