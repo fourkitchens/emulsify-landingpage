@@ -9,7 +9,7 @@
     {% include 'components/_cogs.tpl' %}
     <p>The familar metaphor of thinking about the web as "pages" is an inaccurate representation. The web is better thought of as a collection of components that are assembed together. Each site has a header that gets applied to every page and if you update the header that change shows up throughout the site. The same is true of the footer, navigation, and so on. <strong>This approach to building sites is called Component-driven Development.</strong>
     </p>
-    <p>Components are reusable chunks of web sites. They can be small (inputs, labels, buttons), medium (header, footer, cards), or large (landing page template, photo gallery). <strong>Emulsify adopts the metaphor of Atomic Design</strong>, where the smallest components are atoms, which are assembled into molecules, then organisms, templates, and finally pages. (Yes, "pages". This makes it easier to talk with clients.)
+    <p>Components are the reusable chunks of web sites. They can be small (inputs, labels, buttons), medium (header, footer, cards), or large (landing page template, photo gallery). <strong>Emulsify adopts the metaphor of <a href="http://bradfrost.com/blog/post/atomic-web-design/">Atomic Design</a></strong>, where the smallest components are atoms, which are assembled into molecules, then organisms, templates, and finally pages. (Yes, "pages". This makes it easier to talk with clients.)
     </p>
   </div>
 </section>
@@ -19,9 +19,9 @@
     <h2>Add Component-driven Development to Your Drupal Workflow</h2>
     <h3>Drupal 8 and Pattern Lab</h3>
     <i class="fa fa-drupal" aria-hidden="true"></i>
-    <p>With the move to Twig for templating in Drupal 8, a whole world of tools opens up for theming. <strong>One of those tools is Pattern Lab, a dynamic prototyping and organization tool popularized by Brad Frost.</strong></p>
-    <p>By integrating Pattern Lab, components can be built and managed in a way that makes sense for your workflow. So instead of having to use Drupal's template names the project can instead <strong>work with template names that make sense for the project, developers, and clients</strong>.</p>
-    <p>Once the templates are ready for production, connecting them to Drupal is easy using a simple reference (embed, extend, or import in Twig) from the Drupal templates to the component files.</p>
+    <p>With the move to Twig for templating in Drupal 8, a whole world of tools opens up for theming. <strong>One of those tools is Pattern Lab, a dynamic prototyping and organization tool popularized by <a href="http://bradfrost.com/">Brad Frost.</a></strong></p>
+    <p>By integrating Pattern Lab, components can be built and managed in a way that makes sense for your workflow. So instead of having to use Drupal's template names, the project can instead <strong>work with template names that make sense for the project, developers, and clients</strong>.</p>
+    <p>Once the templates are ready for production, connecting them to Drupal is as easy as using a simple Twig function (include, extends, or embed) from the Drupal templates to the component files.</p>
   </div>
 </section>
 
