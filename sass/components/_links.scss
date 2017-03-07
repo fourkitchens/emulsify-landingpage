@@ -2,6 +2,9 @@ a,
 a:link,
 a:visited,
 a:hover {
-  color: darken($color--blue,15%);
   transition: all .1s;
+
+  .main-content & {
+    color: darken($color--blue,15%);
+  }
 }
