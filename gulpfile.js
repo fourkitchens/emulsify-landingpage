@@ -10,12 +10,12 @@
   const gulpSequence = require('gulp-sequence')
   require('require-dir')('./gulp-tasks')
 
-  var ghPages = require('gulp-gh-pages');
+  var ghPages = require('gulp-gh-pages')
 
-  gulp.task('deploy', ['build'], function() {
+  gulp.task('deploy', ['build'], function () {
     return gulp.src('./dist/**/*')
-      .pipe(ghPages());
-  });
+      .pipe(ghPages())
+  })
 
   /**
    * Remove the `dist` folder.
