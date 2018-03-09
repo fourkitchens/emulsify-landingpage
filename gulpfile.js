@@ -10,11 +10,17 @@
   const gulpSequence = require('gulp-sequence')
   require('require-dir')('./gulp-tasks')
 
-  var ghPages = require('gulp-gh-pages')
+  var ghPages = require('gh-pages')
 
-  gulp.task('deploy', ['build'], function () {
-    return gulp.src('./dist/**/*')
-      .pipe(ghPages())
+  gulp.task('deploy', ['build'], () => {
+    // Publish the build directory to github pages.
+    ghPages.publish(config.paths.dist, (err) => {
+      if (err === undefined) {
+        console.log('Successfully deployed!')
+      } else {
+        console.log(err)
+      }
+    })
   })
 
   /**
@@ -28,7 +34,15 @@
   /**
    * Build task.
    */
-  gulp.task('build', gulpSequence(['clean'], ['imagemin', 'styles', 'scripts', 'html', 'move-fonts', 'move-morgue'], ['lint']))
+  gulp.task('build', gulpSequence(['clean'], ['imagemin', 'styles', 'scripts', 'html', 'move-fonts', 'move-morgue', 'cname'], ['lint']))
+
+  /**
+   * Move CNAME file to /dist
+   */
+  gulp.task('cname', () => {
+    gulp.src('CNAME', { base: './' })
+      .pipe(gulp.dest(config.paths.dist))
+  })
 
   /**
    * Task for running browserSync.
