@@ -6,6 +6,13 @@
   <title>{% block page_title %}Emulsify // Pattern Lab + Drupal 8{% endblock %}</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Meta information -->
+  <meta property="og:title" content="Emulsify: Pattern Lab + Drupal">
+  <meta property="og:description" content="Emulsify is a component-driven prototyping tool and Drupal theme using Pattern Lab automated via Gulp/NPM. Created and maintained by the Web Chefs at Four Kitchens.">
+  <meta property="og:image" content="/img/sharing-image.jpg">
+  <meta property="og:url" content="http://emulsify.info/">
+  <meta name="twitter:card" content="summary_large_image">
+
   {% block head %}{% endblock %}
   {% block stylesheets %}
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
