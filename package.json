@@ -42,9 +42,6 @@
     "type": "git",
     "url": "git+https://github.com/amazingrando/foo.git"
   },
-  "engines": {
-    "node": "^7"
-  },
   "author": "Randy Oest, Amazing Rando Design",
   "license": "ISC",
   "bugs": {
