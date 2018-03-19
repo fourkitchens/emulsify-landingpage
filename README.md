@@ -6,7 +6,7 @@ This repository contains the source files used for the design of the Emulsify la
 
 Install the following dependencies:
 
-- [Node.js](https://nodejs.org/)
+- [Node 7+](https://nodejs.org/)
 
 It is suggested that you use [nvm](https://github.com/creationix/nvm#installation) to [install and use](https://github.com/creationix/nvm#usage) node.js 6.x or 7.x.
 
