@@ -6,7 +6,7 @@ This repository contains the source files used for the design of the Emulsify la
 
 Install the following dependencies:
 
-- [Node.js](https://nodejs.org/)
+- [Node 7+](https://nodejs.org/)
 
 It is suggested that you use [nvm](https://github.com/creationix/nvm#installation) to [install and use](https://github.com/creationix/nvm#usage) node.js 6.x or 7.x.
 
@@ -19,7 +19,7 @@ It is suggested that you use [nvm](https://github.com/creationix/nvm#installatio
   ```
 
 2. Install JavaScript developer tools.
-   
+
    ```bash
    yarn
    ```
@@ -27,7 +27,7 @@ It is suggested that you use [nvm](https://github.com/creationix/nvm#installatio
 3. In Typekit, add the font [Franklin Gothic URW](https://typekit.com/fonts/franklin-gothic-urw) to your kit, then add the Typekit Kit ID to `gulp-tasks/html.js`
 
 4. Serve up the site locally at http://localhost:3000
-   
+
    ```bash
    gulp serve
    ```
@@ -47,3 +47,9 @@ To add additional vendor scripts, such as jQuery UI, you'll do that by updating 
 ### Eyeglass, known "error"
 
 When running `gulp styles` you can disregard the following error, `The following modules are incompatible with eyeglass 1.1.2: bootstrap-sass needed eyeglass ^0.7.1`. `bootstrap-sass` is actually compatible it just throws an error.
+
+## Deploying the site to http://emulsify.info/.
+
+The files for http://emulsify.info are hosted in the `gh-pages` branch of this repo.
+
+To deploy a new version of the site use the command `gulp deploy`.

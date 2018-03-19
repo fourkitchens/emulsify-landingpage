@@ -4,7 +4,8 @@
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
-    "breakpoint-sass": "^2.7.1"
+    "breakpoint-sass": "^2.7.1",
+    "gh-pages": "^1.1.0"
   },
   "devDependencies": {
     "browser-sync": "^2.17.0",
@@ -21,7 +22,6 @@
     "gulp-concat": "^2.6.0",
     "gulp-eslint": "^3.0.1",
     "gulp-flatten": "^0.3.1",
-    "gulp-gh-pages": "^0.5.4",
     "gulp-help": "^1.6.1",
     "gulp-imagemin": "^3.0.3",
     "gulp-sass": "^2.3.2",
@@ -41,9 +41,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amazingrando/foo.git"
-  },
-  "engines": {
-    "node": "^7"
   },
   "author": "Randy Oest, Amazing Rando Design",
   "license": "ISC",
