@@ -1,0 +1,50 @@
+.section--mailchimp {
+  background: $color--blue-dark;
+}
+
+#mc_embed_signup {
+  h2 {
+    color: white;
+    margin-top: 0;
+
+    .label {
+      background: #b00;
+      border-radius: 20px;
+      font-size: 1rem;
+      padding: 0.25rem 0.7rem;
+      white-space: nowrap;
+    }
+  }
+
+  p {
+    color: #fff;
+  }
+}
+
+.mc-field-group {
+  label {
+    color: #fff;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+  }
+
+  input.email {
+    box-sizing: border-box;
+    background: #fff;
+    height: 47px;
+    padding: 0.6rem 1rem;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  input.button {
+    background: $color--blue;
+    color: #fff;
+    height: 47px;
+    padding: 0.6rem 1rem;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+}
