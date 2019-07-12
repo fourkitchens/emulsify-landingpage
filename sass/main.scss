@@ -1,5 +1,6 @@
-@import 'mixins/*';
-@import 'config/variables';
-@import 'vendor/base';
-@import 'layout/**/*';
-@import 'components/**/*';
+@import "mixins/*";
+@import "config/variables";
+@import "config/input-reset";
+@import "vendor/base";
+@import "layout/**/*";
+@import "components/**/*";
