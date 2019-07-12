@@ -9,7 +9,7 @@
           <h2>🚀 Emulsify 5 is Coming!
             <span class="label">NEW VERSION</span>
           </h2>
-          <p>Stay up-to-date with the latest news from Emulsify.</p>
+          <p>Stay up to date with the latest news from Emulsify.</p>
           <div class="mc-field-group">
             <label for="mce-EMAIL">Enter your email
             </label>
