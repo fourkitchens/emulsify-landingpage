@@ -18,7 +18,8 @@
    * Generate CSS
    */
   gulp.task('styles', () => {
-    return gulp.src([config.paths.sass + '/**/*.scss'])
+    return gulp
+      .src([config.paths.sass + '/**/*.scss'])
       .pipe(sourcemaps.init())
       .pipe(sassGlob())
       .pipe(sassLint())

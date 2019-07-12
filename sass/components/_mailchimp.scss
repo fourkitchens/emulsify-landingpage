@@ -9,7 +9,7 @@
     margin-top: 0;
 
     .label {
-      background: #b00;
+      background: #B00;
       border-radius: 20px;
       font-size: 1rem;
       padding: 0.25rem 0.7rem;
@@ -18,17 +18,17 @@
   }
 
   p {
-    color: #fff;
+    color: #FFF;
   }
 }
 
 .mc-field-group {
-  text-align: left;
-  margin: 0 auto;
   display: inline-block;
+  margin: 0 auto;
+  text-align: left;
 
   label {
-    color: #fff;
+    color: #FFF;
     font-size: 0.7rem;
     text-transform: uppercase;
     text-align: left;
@@ -36,7 +36,7 @@
 
   input.email {
     box-sizing: border-box;
-    background: #fff;
+    background: #FFF;
     height: 47px;
     padding: 0.6rem 1rem;
     border-radius: 2px;
@@ -46,7 +46,7 @@
 
   input.button {
     background: $color--blue;
-    color: #fff;
+    color: #FFF;
     height: 47px;
     padding: 0.6rem 1rem;
     border-radius: 2px;
