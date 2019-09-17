@@ -42,6 +42,10 @@
     border-radius: 2px;
     font-size: 1.4rem;
     margin-bottom: 1rem;
+
+    @media (max-width: 450px) {
+      width: 100%;
+    }
   }
 
   input.button {

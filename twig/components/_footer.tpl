@@ -24,7 +24,7 @@
       <a href="https://fonts.google.com/specimen/Montserrat">Montserrat</a>
       is used as the text font and
       <a href="http://fontawesome.io/">Font Awesome</a>
-      is used for the Drupal icon.
+      is used for icons.
       <br>
     </p>
   </section>

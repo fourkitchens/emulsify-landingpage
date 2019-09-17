@@ -1,15 +1,9 @@
 .section {
-  &--first,
-  &--second,
-  &--third,
-  &--fourth {
-    h2 {
-      margin-top: .5em;
-    }
+  h2 {
+    margin-top: .5em;
   }
 }
-.section--first,
-.section--third {
+.section--blue {
   background: lighten($color--blue-light,30%);
 }
 
