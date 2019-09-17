@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js">
+<html class="no-js" lang="en">
   <head>
     <meta charset="utf-8">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
@@ -7,7 +7,7 @@
       {% block page_title %}Emulsify // Pattern Lab + Drupal 8
       {% endblock %}
     </title>
-    <meta content="" name="description">
+    <meta name="Description" content="Emulsify is a component-driven prototyping tool and Drupal theme using Pattern Lab automated via Gulp/NPM. Created and maintained by the Web Chefs at Four Kitchens.">
     <meta
     content="width=device-width, initial-scale=1" name="viewport">
     <!-- Meta information -->
@@ -40,7 +40,6 @@
     {% block modals %}{% endblock modals %}
 
     {% block footer_scripts %}
-      <script src="js/vendor.js"></script>
       <script src="js/main.js"></script>
       <script>
         (function (i, s, o, g, r, a, m) {

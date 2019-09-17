@@ -45,7 +45,7 @@
   }
 
   input.button {
-    background: $color--blue;
+    background: darken($color--blue,10%);
     color: #FFF;
     height: 47px;
     padding: 0.6rem 1rem;
