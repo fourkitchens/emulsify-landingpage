@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="229px" height="77px" viewBox="0 0 229 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="229px" height="77px" viewbox="0 0 229 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <polygon id="path-1" points="0 76.0217193 228.351746 76.0217193 228.351746 0.150609067 0 0.150609067"></polygon>
   </defs>
