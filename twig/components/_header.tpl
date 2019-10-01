@@ -11,7 +11,5 @@
       <span class="no-wrap">
         <i aria-hidden="true" class="fa fa-github"></i>
         Github</span>.</p>
-
-
   </div>
 </header>

@@ -1,15 +1,13 @@
 .section {
-  &--first,
-  &--second,
-  &--third,
-  &--fourth {
-    h2 {
-      margin-top: .5em;
-    }
+  h2 {
+    margin-top: .5em;
+  }
+
+  iframe {
+    border: none;
   }
 }
-.section--first,
-.section--third {
+.section--blue {
   background: lighten($color--blue-light,30%);
 }
 
@@ -53,5 +51,33 @@
   path,
   rect {
     fill: $color--blue-dark;
+  }
+}
+
+.section--fourkitchens {
+  background: $color--blue-dark;
+  color: #FFF;
+
+  h2 {
+    color: #FFF;
+  }
+
+  .max-width {
+    padding: 2em 1em;
+  }
+
+  .wrapper {
+    text-align: center;
+
+    @media (min-width: 570px) {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+
+      svg {
+        margin-top: 7px;
+        margin-left: 1rem;
+      }
+    }
   }
 }

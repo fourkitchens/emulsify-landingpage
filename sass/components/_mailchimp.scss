@@ -42,10 +42,14 @@
     border-radius: 2px;
     font-size: 1.4rem;
     margin-bottom: 1rem;
+
+    @media (max-width: 450px) {
+      width: 100%;
+    }
   }
 
   input.button {
-    background: $color--blue;
+    background: darken($color--blue,10%);
     color: #FFF;
     height: 47px;
     padding: 0.6rem 1rem;
