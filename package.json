@@ -40,12 +40,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amazingrando/foo.git"
+    "url": "git@github.com:fourkitchens/emulsify-landingpage.git"
   },
-  "author": "Randy Oest, Amazing Rando Design",
+  "author": "Randy Oest, Four Kitchens",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/amazingrando/foo/issues"
+    "url": "https://github.com/fourkitchens/emulsify-landingpage/issues"
   },
-  "homepage": "https://github.com/amazingrando/foo#readme"
+  "homepage": "https://github.com/fourkitchens/emulsify-landingpage/blob/master/README.md"
 }
