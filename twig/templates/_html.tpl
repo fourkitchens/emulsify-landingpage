@@ -7,17 +7,16 @@
 			{% block page_title %}Emulsify
 			{% endblock %}
 		</title>
-		<meta name="Description" content="Emulsify is a component-driven prototyping tool and Drupal theme using Pattern Lab automated via Gulp/NPM. Created and maintained by the Web Chefs at Four Kitchens.">
+		<meta name="Description" content="Create a dynamic design system for your entire organization. Created and maintained by the Web Chefs at Four Kitchens.">
 		<meta
 		content="width=device-width, initial-scale=1" name="viewport">
 		<!-- Meta information -->
 		<meta content="Emulsify" property="og:title">
-		<meta content="Emulsify is a component-driven prototyping tool and Drupal theme using Pattern Lab automated via Gulp/NPM. Created and maintained by the Web Chefs at Four Kitchens." property="og:description">
+		<meta content="Create a dynamic design system for your entire organization. Created and maintained by the Web Chefs at Four Kitchens." property="og:description">
 		<meta content="/img/sharing-image.jpg" property="og:image">
 		<meta content="http://emulsify.info/" property="og:url">
 		<meta content="summary_large_image" name="twitter:card"> {% block head %}{% endblock %}
 		{% block stylesheets %}
-			<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" rel="stylesheet">
 			<link href="css/main.css" rel="stylesheet">
 		{% endblock %}
 	</head>
