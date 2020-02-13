@@ -1,83 +1,26 @@
-.section {
-  h2 {
-    margin-top: .5em;
-  }
+section {
+  background-color: var(--section-bkg);
+  padding: 1rem 0 2rem;
 
-  iframe {
-    border: none;
-  }
-}
-.section--blue {
-  background: lighten($color--blue-light,30%);
-}
-
-.cogs {
-  float: right;
-  max-width: 130px;
-  margin-left: 1.5em;
-  margin-bottom: 1.5em;
-  height: auto;
-
-  fill: $color--blue-dark;
-}
-
-.fa-drupal {
-  color: $color--blue-dark;
-  float: right;
-  font-size: 8em;
-  height: auto;
-  margin-left: 30px;
-  margin-bottom: 30px;
-}
-
-.styleguide {
-  float: right;
-  margin-left: 1.5em;
-  margin-bottom: 1.5em;
-  max-width: 130px;
-
-  &__circle {
-    fill: $color--blue-dark;
+  @media (min-width: 600px) {
+    padding: 5rem 0;
   }
 }
 
-.project {
-  float: right;
-  max-width: 130px;
-  margin-left: 1.5em;
-  margin-bottom: 1.5em;
-  height: auto;
-
-  path,
-  rect {
-    fill: $color--blue-dark;
+.section--off-center {
+  @media (max-width: 601px) {
+    padding: 1rem 0 2rem 1rem;
   }
 }
 
-.section--fourkitchens {
-  background: $color--blue-dark;
-  color: #FFF;
+.section-blue-light {
+  --section-bkg: var(--color-blue-light);
+  --icon-color: var(--color-blue-dark);
+}
 
-  h2 {
-    color: #FFF;
-  }
-
-  .max-width {
-    padding: 2em 1em;
-  }
-
-  .wrapper {
-    text-align: center;
-
-    @media (min-width: 570px) {
-      display: flex;
-      flex-flow: row nowrap;
-      align-items: center;
-
-      svg {
-        margin-top: 7px;
-        margin-left: 1rem;
-      }
-    }
-  }
+.section-blue-dark {
+  --section-bkg: var(--color-blue-dark);
+  --text-color: var(--color-white);
+  --header-color: var(--color-white);
+  --link-color: var(--color-white);
 }

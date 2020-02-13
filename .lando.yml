@@ -1,0 +1,4 @@
+name: emulsifylp
+recipe: lamp
+config:
+  webroot: ./dist

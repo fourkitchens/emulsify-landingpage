@@ -1,23 +1,50 @@
 .header {
-  display: flex;
-  align-items: center;
-  background: url("../img/waves.jpg") top left;
-  border-top: 5px solid $color--blue-dark;
-  color: #FFF;
-  min-height: 50vh;
-  text-align: center;
+  --text-color: var(--color-white);
+  --header-color: var(--color-white);
+  --link-color: var(--color-white);
+  background: url("../img/wavebkg.png") top left var(--color-blue);
+  padding: 4rem 1rem;
 
-  .wrapper {
-    margin: 0 auto;
-    padding: 0 3em;
-    width: 100%;
+  @media (min-width: 600px) {
+    padding: 8rem 1rem;
+  }
 
-    @include breakpoint($breakpoint--header) {
-      padding: 2em 1em;
+  .emulsify-logo {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    @media (min-width: 600px) {
+      font-size: 48px;
     }
   }
 
-  a {
-    color: #FFF;
+  .button {
+    background: var(--color-blue-dark);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 17px 31px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 1rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.05s;
+    transform: scale(1);
+
+    &:hover {
+      transform: scale(1.075);
+    }
   }
 }
