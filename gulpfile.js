@@ -11,11 +11,13 @@
   gulp.task('deploy', ['build'], () => {
     // Publish the build directory to github pages.
     ghPages.publish(config.paths.dist, (err) => {
+      /* eslint-disable no-console */
       if (err === undefined) {
         console.log('Successfully deployed!');
       } else {
         console.log(err);
       }
+      /* eslint-enable no-console */
     });
   });
 

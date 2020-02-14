@@ -22,6 +22,9 @@
 	</head>
 
 	<body>
+		<div id="no-css-notice" class="no-css-notice">
+			<p>Please use a modern browser to get the best experience.</p>
+		</div>
 		<div class="page-wrapper">
 			{% block header %}
 				{% include '../components/_header.tpl' %}
@@ -41,7 +44,12 @@
 
 
 		{% block footer_scripts %}
-			<script src="js/main.js"></script>
+			<script>
+				if (!window.CSS) {
+var x = document.getElementById("no-css-notice"); // Get the element with id="demo"
+x.style.display = "block";
+}
+			</script>
 			<script>
 				(function (i, s, o, g, r, a, m) {
 i['GoogleAnalyticsObject'] = r;
