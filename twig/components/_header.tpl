@@ -9,7 +9,7 @@
 				Github</a>
 
 			•
-			<a href="https://github.com/emulsify-ds/documentation">Documentation</a>
+			<a href="https://docs.emulsify.info/">Documentation</a>
 		</p>
 	</div>
 </header>
