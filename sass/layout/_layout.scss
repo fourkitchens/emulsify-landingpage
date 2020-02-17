@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   background: var(--color-white);
-  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: var(--font-family);
   font-size: 18px;
   color: var(--color-text);
 }
