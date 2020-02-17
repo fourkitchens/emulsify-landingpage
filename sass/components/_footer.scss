@@ -1,24 +1,7 @@
 .footer {
-  background: $color--blue-dark;
-  color: #FFF;
-  font-size: .8em;
-  padding: 2em;
-  text-align: center;
-
-  .colophon {
-    margin-top: 3em;
-    font-size: .8em;
-  }
-
-  a {
-    color: $color--blue-light;
-
-    &:hover {
-      color: #FFF;
-    }
-  }
-
-  h2 {
-    color: $color--blue-light;
-  }
+  --text-color: var(--color-white);
+  --header-color: var(--color-white);
+  --link-color: var(--color-white);
+  background: var(--color-blue-dark);
+  padding: 2rem 0 5rem;
 }

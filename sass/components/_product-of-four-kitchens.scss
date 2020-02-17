@@ -1,0 +1,25 @@
+.product-of-four-kitchens {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+  margin-top: 2rem;
+
+  @media screen and (min-width: 600px) {
+    flex-flow: row nowrap;
+  }
+
+  span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+
+    @media screen and (min-width: 600px) {
+      margin-bottom: 0;
+    }
+  }
+}

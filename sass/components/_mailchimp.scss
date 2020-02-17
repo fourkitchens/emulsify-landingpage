@@ -1,60 +1,73 @@
-.section--mailchimp {
-  background: $color--blue-dark;
-  text-align: center;
-}
-
-#mc_embed_signup {
-  h2 {
-    color: white;
-    margin-top: 0;
-
-    .label {
-      background: #B00;
-      border-radius: 20px;
-      font-size: 1rem;
-      padding: 0.25rem 0.7rem;
-      white-space: nowrap;
-    }
-  }
-
-  p {
-    color: #FFF;
-  }
-}
-
 .mc-field-group {
-  display: inline-block;
-  margin: 0 auto;
-  text-align: left;
+  margin-bottom: 3rem;
 
   label {
-    color: #FFF;
-    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
     text-transform: uppercase;
-    text-align: left;
+    color: var(--color-white);
+    margin: 0 0 0.25rem;
+    display: block;
   }
 
-  input.email {
-    box-sizing: border-box;
-    background: #FFF;
-    height: 47px;
-    padding: 0.6rem 1rem;
-    border-radius: 2px;
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
+  .mailchimp-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
 
-    @media (max-width: 450px) {
-      width: 100%;
+    @media screen and (min-width: 600px) {
+      flex-flow: row nowrap;
     }
   }
 
-  input.button {
-    background: darken($color--blue,10%);
-    color: #FFF;
-    height: 47px;
-    padding: 0.6rem 1rem;
+  input[type="email"] {
+    box-sizing: border-box;
+    display: block;
+    height: 55px;
+    background: var(--color-white);
     border-radius: 2px;
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0 1rem;
+    margin-right: 4px;
+    margin-bottom: 0.5rem;
+    width: 100%;
+
+    &::placeholder {
+      color: rgba(8, 90, 125, 0.46);
+    }
+
+    @media screen and (min-width: 600px) {
+      width: auto;
+    }
+  }
+
+  .button {
+    border-radius: 2px;
+    border: none;
+    background: var(--color-blue);
+    cursor: pointer;
+    display: block;
+    height: 55px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: var(--color-white);
+    padding: 0 27px;
+    transition: all 0.05s;
+    transform: scale(1);
+    width: 100%;
+
+    &:hover {
+      transform: scale(1.075);
+    }
+
+    @media screen and (min-width: 600px) {
+      width: auto;
+    }
   }
 }

@@ -1,15 +1,15 @@
 <header class="header">
-  <div class="wrapper">
-    {% include '_logo.tpl' %}
-    <p>
-      <a class="btn btn--download" href="https://github.com/fourkitchens/emulsify/wiki/Install-(Composer)">
-        Get Started</a>
-    </p>
-    <p class="small">
-      <a href="https://github.com/fourkitchens/emulsify">Download the source</a>
-      from
-      <span class="no-wrap">
-        <i aria-hidden="true" class="fa fa-github"></i>
-        Github</span>.</p>
-  </div>
+	<div class="wrapper">
+		{% include '_logo-tagline.tpl' %}
+		<h1>Create a dynamic design system for your entire organization</h1>
+		<a class="button" href="https://github.com/emulsify-ds/emulsify-design-system/blob/develop/README.md">Get Started</a>
+		<p>
+			<a href="https://github.com/emulsify-ds">View on
+				<i class="fab fa-github"></i>
+				Github</a>
+
+			•
+			<a href="https://docs.emulsify.info/">Documentation</a>
+		</p>
+	</div>
 </header>

@@ -1,24 +1,99 @@
-h2 {
-  margin: 2em 0 .25em;
-  color: $color--blue;
-  color: darken($color--blue,15%);
-  font-weight: bold;
-}
-
+h1,
+h2,
 h3 {
-  margin-top: 0;
-  color: darken($color--blue,15%);
+  color: var(--header-color);
+  line-height: 1;
 }
 
-p {
-  margin: .5em 0 1em 0;
-  line-height: 1.5;
+h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
 
   &.small {
-    font-size: .8em;
+    font-size: 36px;
   }
 }
 
-.no-wrap {
-  white-space: nowrap;
+h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+p,
+li {
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 15px;
+
+  .text-big & {
+    font-size: 22px;
+    line-height: 27px;
+  }
+}
+
+p.small {
+  font-size: 14px;
+}
+
+.text-big li {
+  margin-bottom: 30px;
+}
+
+a {
+  color: var(--link-color);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fa-ul {
+  margin: 0 0 0 1.1em;
+
+  .fas {
+    color: var(--icon-color);
+    font-size: 1.3rem;
+    margin-top: -7px;
+  }
+}
+
+.lozenge {
+  background: var(--color-red);
+  border-radius: 100px;
+  color: var(--color-white);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 5.00001px 12px;
+  text-transform: uppercase;
+
+  &--small {
+    font-size: 10px;
+    padding: 3px 6px;
+    position: relative;
+    top: -3px;
+  }
+}
+
+label {
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+
+input[type="email"] {
+  height: 55px;
+  background: var(--color-white);
+  border: none;
+  border-radius: 2px;
 }
